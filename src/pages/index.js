@@ -3,6 +3,9 @@ import pageStyles from "../styles/style.js";
 import { Link } from "gatsby";
 import Layout from "../components/layout/layout";
 import { StaticImage } from "gatsby-plugin-image";
+import Header from "../components/links/links.js";
+import { useStaticQuery, graphql } from "gatsby";
+import Seo from "../components/seo/seo.js";
 
 const IndexPage = () => {
   return (
@@ -12,6 +15,7 @@ const IndexPage = () => {
         alt="denden is changed"
         src="https://dateideas.ai/_next/image?url=%2Fshowcase%2Ftemp1.webp&w=750&q=75"
       />
+      <Header />
     </Layout>
 
     // <main style={pageStyles.pageStyles}>
@@ -69,4 +73,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head = () => <title>deenizhan</title>;
+export const Head = () => <Seo title="Home Page" />;

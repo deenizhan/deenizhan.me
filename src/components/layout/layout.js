@@ -6,7 +6,7 @@ const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
       <nav>
-        <ul>
+        <ul style={{ listStyleType: "none" }}>
           <li>
             <Link className={navLinkItem} to="/">
               Home

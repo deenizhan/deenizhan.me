@@ -1,6 +1,6 @@
 import * as React from "react";
-import Layout from "../components/layout/layout";
-import Seo from "../components/seo/seo";
+import Layout from "../../components/layout/layout.js";
+import Seo from "../../components/seo/seo.js";
 import { graphql } from "gatsby";
 
 const BlogPage = ({ data }) => {
@@ -24,7 +24,7 @@ export const query = graphql`
     allMdx(sort: { frontmatter: { date: DESC } }) {
       nodes {
         frontmatter {
-          name
+          title
           date(formatString: "MMMM D, YYYY")
         }
         id

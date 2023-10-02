@@ -13,7 +13,7 @@ const IndexPage = () => {
       <p>I'm making this by following the Gatsby Tutorial.</p>
       <StaticImage
         alt="denden is changed"
-        src="https://dateideas.ai/_next/image?url=%2Fshowcase%2Ftemp1.webp&w=750&q=75"
+        // src="https://dateideas.ai/_next/image?url=%2Fshowcase%2Ftemp1.webp&w=750&q=75"
       />
       <Header />
     </Layout>

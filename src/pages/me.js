@@ -1,8 +1,19 @@
 import * as React from "react";
-import style from "../styles/style.js";
+import pageStyles from "../styles/style.js";
+import Header from "../components/links/links.js";
+import Layout from "../components/layout/layout";
+import Seo from "../components/seo/seo.js";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import { useStaticQuery, graphql } from "gatsby";
 
 const welcomer = () => {
-  return <h1>Hello guys here is me</h1>;
+  return (
+    <Layout pageTitle="hello">
+      <Header />
+    </Layout>
+  );
 };
 
 export default welcomer;
+export const Head = () => <Seo title="me in a nutshell" />;

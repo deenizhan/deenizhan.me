@@ -9,12 +9,12 @@ import { useStaticQuery, graphql } from "gatsby";
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="hej! denizhan here.">
       <StaticImage
         alt="denden is changed"
         src="https://dateideas.ai/_next/image?url=%2Fshowcase%2Ftemp1.webp&w=750&q=75"
       />
-      <Header />
+      {/* <Header /> */}
     </Layout>
   );
 };

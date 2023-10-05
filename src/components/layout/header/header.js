@@ -1,24 +1,34 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import { container, nav, navLinkItem } from "../layout.module.css";
+import {
+  container,
+  header,
+  title,
+  navigator,
+  seperator,
+} from "../layout.module.css";
 
 const Header = () => {
   return (
     <div className={container}>
-      <span>deenizhan.me</span>
-      <span className={nav}>
-        <Link className={navLinkItem} to="/">
-          Home
+      <div>
+        <Link to="/" className={title}>
+          deenizhan.me
         </Link>
-        <span>/</span>
-        <Link className={navLinkItem} to="/me">
-          me
+      </div>
+      <div>
+        <Link to="/" className={navigator}>
+          projects
         </Link>
-        <span>/</span>
-        <Link className={navLinkItem} to="/blog">
-          blog
+        <span className={seperator}>/</span>
+        <Link to="/me" className={navigator}>
+          journey
         </Link>
-      </span>
+        <span className={seperator}>/</span>
+        <Link to="/blog" className={navigator}>
+          stack
+        </Link>
+      </div>
     </div>
   );
 };

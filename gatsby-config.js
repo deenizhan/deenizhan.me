@@ -7,6 +7,16 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `deenizhan.me`,
+        short_name: `deenizhan.me`,
+        start_url: `/deenizhan.me`,
+        display: `standalone`,
+        icon: `../deenizhanme/src/lib/logo/logo.001.jpeg`,
+      },
+    },
     "gatsby-plugin-netlify-cms",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
@@ -17,7 +27,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: "gatsby-remark-emoji", // <-- this adds emoji
+            resolve: "gatsby-remark-emoji",
             options: {
               emojiConversion: "shortnameToUnicode",
               ascii: false,

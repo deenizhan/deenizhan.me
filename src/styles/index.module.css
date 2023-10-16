@@ -1,5 +1,4 @@
 .moi {
-  width: 700px;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -18,7 +17,6 @@
   align-items: center;
   width: 70%;
   margin-right: auto;
-  max-width: 60%;
 }
 
 .gif {
@@ -28,17 +26,29 @@
 .summaryText {
   padding-top: 4%;
   font-size: large;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .pageTitle {
   font-weight: 100;
-  font-size: xx-large;
+  font-size: 40px;
   font-family: sans-serif;
   margin-top: 0%;
   margin-bottom: 5%;
 }
 
 .introduction {
-  line-height: 130%;
+  line-height: 140%;
+}
+
+.paint1 {
+  background: rgba(255, 127, 0, 0.4);
+  position: relative;
+  /* line-height: 70%; */
+}
+
+.socialButttons {
+  width: 35px;
+  margin-right: 0.4em;
+  align-items: baseline;
 }

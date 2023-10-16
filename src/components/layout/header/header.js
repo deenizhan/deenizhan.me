@@ -10,25 +10,17 @@ import {
 
 const Header = () => {
   return (
-    <div className={container}>
-      <div>
-        <Link to="/" className={title}>
-          deenizhan.me
-        </Link>
-      </div>
-      <div>
-        <Link to="/" className={navigator}>
-          projects
-        </Link>
+    <div className={header}>
+      <span className={title}>
+        <Link to="/">deenizhan.me</Link>
+      </span>
+      <span className={navigator}>
+        <Link to="/">projects</Link>
         <span className={seperator}>/</span>
-        <Link to="/me" className={navigator}>
-          journey
-        </Link>
+        <Link to="/me">journey</Link>
         <span className={seperator}>/</span>
-        <Link to="/blog" className={navigator}>
-          stack
-        </Link>
-      </div>
+        <Link to="/blog">stack</Link>
+      </span>
     </div>
   );
 };

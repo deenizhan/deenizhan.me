@@ -14,9 +14,15 @@ import {
   summaryText,
   pageTitle,
   introduction,
+  paint1,
+  socialButttons,
 } from "../styles/index.module.css";
 import denzan from "../lib/denzan.gif";
 import Line from "../components/layout/line/Line.js";
+import github from "../lib/social/github.png";
+import linkedin from "../lib/social/linkedin.png";
+import youtube from "../lib/social/youtube.png";
+import medium from "../lib/social/medium.png";
 
 const getToKnows = [
   {
@@ -35,23 +41,42 @@ const IndexPage = () => {
           {getToKnows.map((getToKnow) => (
             <li className={summaryText} key={getToKnow.url}>
               {getToKnow.description}{" "}
-              <a href={getToKnow.url} target="_blank" rel="noopener noreferrer">
+              <a
+                className={paint1}
+                href={getToKnow.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {getToKnow.text}
               </a>
             </li>
           ))}
-          <span className={introduction}>
+          <div className={introduction}>
             <p>
               I'm all about the data and web development! It's not just a hobby;
               it's my jam. Whether I'm diving into databases or coding up a
               storm, I'm in my element when it comes to making things happen
               online.
             </p>
-          </span>
+          </div>
         </ul>
         <span className={image}>
           <img className={gif} src={denzan} />
         </span>
+      </div>
+      <div>
+        <a>
+          <img className={socialButttons} src={linkedin}></img>
+        </a>
+        <a>
+          <img className={socialButttons} src={github}></img>
+        </a>
+        <a>
+          <img className={socialButttons} src={youtube}></img>
+        </a>
+        <a>
+          <img className={socialButttons} src={medium}></img>
+        </a>
       </div>
       <Line />
     </Layout>

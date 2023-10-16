@@ -16,6 +16,7 @@ import {
   introduction,
   paint1,
   socialButttons,
+  paintName,
 } from "../styles/index.module.css";
 import denzan from "../lib/denzan.gif";
 import Line from "../components/layout/line/Line.js";
@@ -37,7 +38,9 @@ const IndexPage = () => {
     <Layout>
       <div className={moi}>
         <ul className={getToKnowStyle}>
-          <h1 className={pageTitle}>hej! denizhan here.</h1>
+          <h1 className={pageTitle}>
+            hej! <span style={{}}>denizhan</span> here.
+          </h1>
           {getToKnows.map((getToKnow) => (
             <li className={summaryText} key={getToKnow.url}>
               {getToKnow.description}{" "}
@@ -61,21 +64,49 @@ const IndexPage = () => {
           </div>
         </ul>
         <span className={image}>
-          <img className={gif} src={denzan} />
+          <img className={gif} src={denzan} alt="moi" />
         </span>
       </div>
       <div>
-        <a>
-          <img className={socialButttons} src={linkedin}></img>
+        <a
+          href="https://www.linkedin.com/in/yilmazdenizhan/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className={socialButttons}
+            src={linkedin}
+            alt="yilmazdenizhan"
+          ></img>
         </a>
-        <a>
-          <img className={socialButttons} src={github}></img>
+        <a
+          href="https://github.com/deenizhan/deenizhanme"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className={socialButttons} src={github} alt="deenizhanme"></img>
         </a>
-        <a>
-          <img className={socialButttons} src={youtube}></img>
+        <a
+          href="https://www.youtube.com/@denizhanyilmaz4433"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className={socialButttons}
+            src={youtube}
+            alt="@denizhanyilmaz4433"
+          ></img>
         </a>
-        <a>
-          <img className={socialButttons} src={medium}></img>
+        <a
+          href="https://medium.com/@denizhanyilmaz9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            className={socialButttons}
+            src={medium}
+            alt="@denizhanyilmaz9"
+          ></img>
         </a>
       </div>
       <Line />

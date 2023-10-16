@@ -42,13 +42,14 @@
 }
 
 .paint1 {
-  background: rgba(255, 127, 0, 0.4);
+  background: rgba(255, 127, 0, 0.37);
   position: relative;
   /* line-height: 70%; */
 }
 
 .socialButttons {
+  display: inline-flex;
+  justify-content: flex-end;
   width: 35px;
   margin-right: 0.4em;
-  align-items: baseline;
 }

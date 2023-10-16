@@ -53,4 +53,9 @@ a {
   text-decoration: none;
   color: black;
   font-weight: 400;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: gold;
 }

@@ -7,14 +7,29 @@ import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
 
+const experiences = [
+  {
+    text: "Trendyol",
+    url: "https://www.trendyol.com/",
+    description: "Data Warehouse Analyst",
+    color: "#E95800",
+  },
+  {
+    text: "Getir",
+    url: "https://www.getir.com/",
+    description: "Data Analyst",
+    color: "#E95800",
+  },
+];
+
 const IndexPage = () => {
   return (
     <Layout pageTitle="hej! denizhan here.">
-      <StaticImage
-        alt="denden is changed"
-        src="https://dateideas.ai/_next/image?url=%2Fshowcase%2Ftemp1.webp&w=750&q=75"
-      />
-      {/* <Header /> */}
+      <ul>
+        {experiences.map((experience) => (
+          <li key={experience.url}>{experience.description}</li>
+        ))}
+      </ul>
     </Layout>
   );
 };

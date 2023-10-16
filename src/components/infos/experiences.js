@@ -13,7 +13,7 @@ const experiences = [
 const PrintExperience = (experiences) => {
   return (
     <ul>
-      {const experiences = experiences.map((experience) => {
+      {experiences.map((experience) => {
         <li>{experience}</li>;
       })}
     </ul>

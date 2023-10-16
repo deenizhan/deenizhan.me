@@ -23,11 +23,14 @@
     "gatsby-plugin-netlify-cms": "^7.12.0",
     "gatsby-plugin-sharp": "^5.12.0",
     "gatsby-plugin-sitemap": "^6.12.0",
+    "gatsby-remark-emoji": "^0.0.3",
     "gatsby-source-filesystem": "^5.12.0",
+    "gatsby-transformer-remark": "^6.12.1",
     "gatsby-transformer-sharp": "^5.12.0",
     "netlify-cms-app": "^2.15.72",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-gif-player": "^0.4.2",
     "react-helmet": "^6.1.0"
   },
   "resolutions": {

@@ -13,6 +13,20 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: "gatsby-remark-emoji", // <-- this adds emoji
+            options: {
+              emojiConversion: "shortnameToUnicode",
+              ascii: false,
+            },
+          },
+        ],
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `blog`,

@@ -7,6 +7,7 @@ import {
   pageTitleFont,
 } from "./layout.module.css";
 import Header from "./header/header";
+import Line from "./line/Line.js";
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -14,7 +15,7 @@ const Layout = ({ pageTitle, children }) => {
       <Header />
       <div className={container}>
         <main>
-          <hr></hr>
+          <Line />
           <h1 className={pageTitleFont}>{pageTitle}</h1>
           {children}
         </main>

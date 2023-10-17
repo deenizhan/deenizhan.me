@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import { container, pageTitleFont } from "./layout.module.css";
 import Header from "./header/header";
 import Line from "./line/Line.js";
+import Footer from "./footer/footer.js";
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -13,6 +14,8 @@ const Layout = ({ pageTitle, children }) => {
           <Line />
           <h1 className={pageTitleFont}>{pageTitle}</h1>
           {children}
+          lorem ipsum
+          <Footer />
         </div>
       </main>
     </>

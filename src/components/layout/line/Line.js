@@ -9,8 +9,8 @@ const Hr = () => {
           borderColor: "rgba(0, 0, 0, 0.09)",
           marginTop: "3%",
           marginBottom: "3%",
-          marginLeft: "1%",
-          marginRight: "3%",
+          // marginLeft: "1%",
+          // marginRight: "3%",
         }}
       />
     </>

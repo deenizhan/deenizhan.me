@@ -15,15 +15,18 @@ import {
   pageTitle,
   introduction,
   paint1,
+  socialButtton,
   socialButttons,
   paintName,
+  tooltip,
+  tooltiptext,
 } from "../styles/index.module.css";
 import denzan from "../lib/denzan.gif";
 import Line from "../components/layout/line/Line.js";
-import github from "../lib/social/github.png";
-import linkedin from "../lib/social/linkedin.png";
-import youtube from "../lib/social/youtube.png";
-import medium from "../lib/social/medium.png";
+import github from "../lib/social/github.svg";
+import linkedin from "../lib/social/linkedin.svg";
+import youtube from "../lib/social/youtube.svg";
+import medium from "../lib/social/medium.svg";
 
 const getToKnows = [
   {
@@ -67,46 +70,41 @@ const IndexPage = () => {
           <img className={gif} src={denzan} alt="moi" />
         </span>
       </div>
-      <div>
+      <div className={socialButttons}>
         <a
           href="https://www.linkedin.com/in/yilmazdenizhan/"
           target="_blank"
           rel="noopener noreferrer"
+          className={socialButtton}
         >
-          <img
-            className={socialButttons}
-            src={linkedin}
-            alt="yilmazdenizhan"
-          ></img>
+          <img src={linkedin} alt="yilmazdenizhan"></img>
         </a>
         <a
           href="https://github.com/deenizhan/deenizhanme"
           target="_blank"
           rel="noopener noreferrer"
+          className={socialButtton}
         >
-          <img className={socialButttons} src={github} alt="deenizhanme"></img>
+          <img src={github} alt="deenizhanme"></img>
         </a>
         <a
           href="https://www.youtube.com/@denizhanyilmaz4433"
           target="_blank"
           rel="noopener noreferrer"
+          className={socialButtton}
         >
-          <img
-            className={socialButttons}
-            src={youtube}
-            alt="@denizhanyilmaz4433"
-          ></img>
+          <img src={youtube} alt="@denizhanyilmaz4433"></img>
         </a>
         <a
-          href="https://medium.com/@denizhanyilmaz9"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="javascript:void(0)"
+          // target="_blank"
+          // rel="noopener noreferrer"
+          className={socialButtton}
         >
-          <img
-            className={socialButttons}
-            src={medium}
-            alt="@denizhanyilmaz9"
-          ></img>
+          <span className={tooltip}>
+            <img src={medium} alt="@denizhanyilmaz9"></img>
+            <span className={tooltiptext}>soon.</span>
+          </span>
         </a>
       </div>
       <Line />

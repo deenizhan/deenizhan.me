@@ -49,13 +49,13 @@ ul {
   padding-left: 0;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: 400;
-  transition: 0.3s;
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
 
-a:hover {
-  background-color: gold;
+.footerTitle {
+}
+
+.email {
 }

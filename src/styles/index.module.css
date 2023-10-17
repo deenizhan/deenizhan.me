@@ -44,12 +44,57 @@
 .paint1 {
   background: rgba(255, 127, 0, 0.37);
   position: relative;
+  font-weight: bold;
   /* line-height: 70%; */
 }
 
 .socialButttons {
-  display: inline-flex;
-  justify-content: flex-end;
-  width: 35px;
-  margin-right: 0.4em;
+  display: flex;
+  width: 30px;
+}
+
+.socialButtton {
+  padding-right: 0.3em;
+}
+
+.socialButtton > * {
+  width: 30px;
+}
+
+.socialButtton > span > img {
+  width: 30px;
+}
+
+a {
+  align-content: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 100;
+}
+
+a:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 3em;
+  font-size: small;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  padding: 0.3em 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }

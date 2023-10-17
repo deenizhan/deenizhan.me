@@ -1,11 +1,11 @@
-import * as React from "react";
-import pageStyles from "../styles/style.js";
-import Header from "../components/links/links.js";
-import Layout from "../components/layout/layout";
-import Seo from "../components/seo/seo.js";
-import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
-import { useStaticQuery, graphql } from "gatsby";
+import * as React from "react"
+import pageStyles from "../styles/style.js"
+import Header from "../components/links/links.js"
+import Layout from "../components/layout/layout"
+import Seo from "../components/seo/seo.js"
+import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
+import { useStaticQuery, graphql } from "gatsby"
 import {
   moi,
   image,
@@ -20,13 +20,13 @@ import {
   paintName,
   tooltip,
   tooltiptext,
-} from "../styles/index.module.css";
-import denzan from "../lib/denzan.gif";
-import Line from "../components/layout/line/Line.js";
-import github from "../lib/social/github.svg";
-import linkedin from "../lib/social/linkedin.svg";
-import youtube from "../lib/social/youtube.svg";
-import medium from "../lib/social/medium.svg";
+} from "../styles/index.module.css"
+import denzan from "../lib/denzan.gif"
+import Line from "../components/layout/line/Line.js"
+import github from "../lib/social/github.svg"
+import linkedin from "../lib/social/linkedin.svg"
+import youtube from "../lib/social/youtube.svg"
+import medium from "../lib/social/medium.svg"
 
 const getToKnows = [
   {
@@ -34,7 +34,7 @@ const getToKnows = [
     url: "https://www.trendyol.com/",
     description: "💻  Data Warehouse Analyst",
   },
-];
+]
 
 const IndexPage = () => {
   return (
@@ -42,9 +42,9 @@ const IndexPage = () => {
       <div className={moi}>
         <ul className={getToKnowStyle}>
           <h1 className={pageTitle}>
-            hej! <span style={{}}>denizhan</span> here.
+            <span style={{ fontWeight: 800 }}>hej!</span> denizhan here.
           </h1>
-          {getToKnows.map((getToKnow) => (
+          {getToKnows.map(getToKnow => (
             <li className={summaryText} key={getToKnow.url}>
               {getToKnow.description}{" "}
               <a
@@ -109,9 +109,9 @@ const IndexPage = () => {
       </div>
       <Line />
     </Layout>
-  );
-};
+  )
+}
 
-export default IndexPage;
+export default IndexPage
 
-export const Head = () => <Seo title="hej!" />;
+export const Head = () => <Seo title="hej!" />

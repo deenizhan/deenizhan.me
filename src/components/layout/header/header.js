@@ -15,11 +15,13 @@ const Header = () => {
         <Link to="/">deenizhan.me</Link>
       </span>
       <span className={navigator}>
-        <Link to="/">projects</Link>
+        <Link to="/moi">moi</Link>
         <span className={seperator}>/</span>
-        <Link to="/me">journey</Link>
+        <Link to="/journey">journey</Link>
         <span className={seperator}>/</span>
-        <Link to="/blog">stack</Link>
+        <Link to="/projects">projects</Link>
+        <span className={seperator}>/</span>
+        <Link to="/blog">blog</Link>
       </span>
     </div>
   )

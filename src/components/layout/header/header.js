@@ -1,12 +1,12 @@
-import * as React from "react";
-import { Link } from "gatsby";
+import * as React from "react"
+import { Link } from "gatsby"
 import {
   container,
   header,
   title,
   navigator,
   seperator,
-} from "../layout.module.css";
+} from "../layout.module.css"
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
         <Link to="/blog">stack</Link>
       </span>
     </div>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

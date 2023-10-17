@@ -1,41 +1,42 @@
 {
-  "name": "deenizhan",
-  "version": "1.0.0",
+  "name": "deenizhan.me",
   "private": true,
-  "description": "deenizhan",
+  "description": "",
+  "version": "0.1.0",
   "author": "deenizhan",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
     "gatsby": "^5.12.4",
-    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-manifest": "^5.12.1",
-    "gatsby-plugin-mdx": "^5.12.0",
-    "gatsby-plugin-netlify-cms": "^7.12.0",
+    "gatsby-plugin-mdx": "^5.12.1",
     "gatsby-plugin-sharp": "^5.12.0",
-    "gatsby-plugin-sitemap": "^6.12.0",
-    "gatsby-remark-emoji": "^0.0.3",
     "gatsby-source-filesystem": "^5.12.0",
-    "gatsby-transformer-remark": "^6.12.1",
     "gatsby-transformer-sharp": "^5.12.0",
-    "netlify-cms-app": "^2.15.72",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-gif-player": "^0.4.2",
-    "react-helmet": "^6.1.0",
-    "share-buttons": "^1.9.0"
+    "react-dom": "^18.2.0"
   },
-  "resolutions": {
-    "**/trim": "^0.0.3"
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deenizhan/deenizhanme"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

@@ -6,6 +6,8 @@ import {
   title,
   navigator,
   seperator,
+  tooltip,
+  tooltiptext,
 } from "../layout.module.css"
 
 const Header = () => {
@@ -15,13 +17,25 @@ const Header = () => {
         <Link to="/">deenizhan.me</Link>
       </span>
       <span className={navigator}>
-        <Link to="/moi">moi</Link>
-        <span className={seperator}>/</span>
-        <Link to="/journey">journey</Link>
-        <span className={seperator}>/</span>
-        <Link to="/projects">projects</Link>
-        <span className={seperator}>/</span>
-        <Link to="/blog">blog</Link>
+        <span className={tooltip}>
+          <Link to="javascript:void(0)">moi</Link>
+          <span className={tooltiptext}>soon.</span>
+          <span className={seperator}>/</span>
+        </span>
+        <span className={tooltip}>
+          <Link to="javascript:void(0)">journey</Link>
+          <span className={tooltiptext}>soon.</span>
+          <span className={seperator}>/</span>
+        </span>
+        <span className={tooltip}>
+          <Link to="javascript:void(0)">projects</Link>
+          <span className={tooltiptext}>soon.</span>
+          <span className={seperator}>/</span>
+        </span>
+        <span className={tooltip}>
+          <Link to="javascript:void(0)">blog</Link>
+          <span className={tooltiptext}>soon.</span>
+        </span>
       </span>
     </div>
   )

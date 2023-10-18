@@ -1,11 +1,11 @@
-import * as React from "react";
-import Layout from "../../components/layout/layout.js";
-import Seo from "../../components/seo/seo.js";
-import { graphql } from "gatsby";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import * as React from "react"
+import Layout from "../components/layout/layout.js"
+import Seo from "../components/seo/seo.js"
+import { graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 const BlogPost = ({ data, children }) => {
-  const image = getImage(data.mdx.frontmatter.hero_image);
+  const image = getImage(data.mdx.frontmatter.hero_image)
 
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
@@ -19,8 +19,8 @@ const BlogPost = ({ data, children }) => {
       </p>
       {children}
     </Layout>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query ($id: String) {
@@ -40,8 +40,8 @@ export const query = graphql`
       }
     }
   }
-`;
+`
 
-export const Head = ({ data }) => <Seo title={data.mdx.frontmatter.title} />;
+export const Head = ({ data }) => <Seo title={data.mdx.frontmatter.title} />
 
-export default BlogPost;
+export default BlogPost

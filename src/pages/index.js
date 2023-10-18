@@ -1,8 +1,7 @@
 import * as React from "react"
-import pageStyles from "../styles/style.js"
-import Header from "../components/links/links.js"
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo/seo.js"
+import pageStyles from "../styles/style.js"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { useStaticQuery, graphql } from "gatsby"
@@ -15,18 +14,10 @@ import {
   pageTitle,
   introduction,
   paint1,
-  socialButtton,
-  socialButttons,
-  paintName,
-  tooltip,
-  tooltiptext,
 } from "../styles/index.module.css"
 import denzan from "../lib/denzan.gif"
 import Line from "../components/layout/line/Line.js"
-import github from "../lib/social/github.svg"
-import linkedin from "../lib/social/linkedin.svg"
-import youtube from "../lib/social/youtube.svg"
-import medium from "../lib/social/medium.svg"
+import Socials from "../components/socials/socials.js"
 
 const getToKnows = [
   {
@@ -70,48 +61,12 @@ const IndexPage = () => {
           <img className={gif} src={denzan} alt="moi" />
         </span>
       </div>
-      <div className={socialButttons}>
-        <a
-          href="https://www.linkedin.com/in/yilmazdenizhan/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={socialButtton}
-        >
-          <img src={linkedin} alt="yilmazdenizhan"></img>
-        </a>
-        <a
-          href="https://github.com/deenizhan/deenizhanme"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={socialButtton}
-        >
-          <img src={github} alt="deenizhanme"></img>
-        </a>
-        <a
-          href="https://www.youtube.com/@denizhanyilmaz4433"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={socialButtton}
-        >
-          <img src={youtube} alt="@denizhanyilmaz4433"></img>
-        </a>
-        <a
-          href="javascript:void(0)"
-          // target="_blank"
-          // rel="noopener noreferrer"
-          className={socialButtton}
-        >
-          <span className={tooltip}>
-            <img src={medium} alt="@denizhanyilmaz9"></img>
-            <span className={tooltiptext}>soon.</span>
-          </span>
-        </a>
-      </div>
+      <Socials />
       <Line />
+      coming soooon.
     </Layout>
   )
 }
 
 export default IndexPage
-
 export const Head = () => <Seo title="hej!" />

@@ -1,9 +1,6 @@
 .moi {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
 .image {
@@ -105,7 +102,7 @@ a:hover {
   padding: 0.3em 0;
   position: absolute;
   position: absolute;
-  right: 0px;
+  left: 0px;
   top: -70%;
 }
 

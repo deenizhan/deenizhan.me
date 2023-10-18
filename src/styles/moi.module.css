@@ -1,0 +1,13 @@
+.moi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 770px;
+  font-size: medium;
+}
+
+@media (max-width: 768px) {
+  .moi {
+    width: auto;
+  }
+}

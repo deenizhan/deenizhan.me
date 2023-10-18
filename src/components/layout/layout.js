@@ -14,7 +14,7 @@ const Layout = ({ pageTitle, children }) => {
           <Line />
           <h1 className={pageTitleFont}>{pageTitle}</h1>
           {children}
-          coming soon.
+          coming soon. or not
           <Footer />
         </div>
       </main>

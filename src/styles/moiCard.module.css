@@ -27,8 +27,33 @@
 }
 .flags {
   font-size: x-large;
+  vertical-align: middle;
 }
 
 .colorBlind {
   text-decoration: underline;
+}
+
+.moiInfo {
+  max-width: 70%;
+}
+
+.cooper {
+  max-height: 300px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .cooper {
+    display: none;
+  }
+  .moiInfo {
+    align-items: center;
+    max-width: 100%;
+    margin-right: auto;
+  }
+}
+
+.moiCooper {
+  display: flex;
+  justify-content: space-between;
 }

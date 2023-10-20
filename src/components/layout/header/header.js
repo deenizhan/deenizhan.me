@@ -17,10 +17,7 @@ const Header = () => {
         <Link to="/">deenizhan.me</Link>
       </span>
       <span className={navigator}>
-        <span className={tooltip}>
-          <span className={tooltiptext}>soon.</span>
-          <Link to="javascript:void(0)">moi</Link>
-        </span>
+        <Link to="/moi">moi</Link>
         <span className={seperator}>/</span>
         <span className={tooltip}>
           <span className={tooltiptext}>soon.</span>

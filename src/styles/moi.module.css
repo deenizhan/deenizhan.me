@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 770px;
   font-size: medium;
-  line-height: 70%;
+  line-height: 120%;
 }
 
 @media (max-width: 768px) {

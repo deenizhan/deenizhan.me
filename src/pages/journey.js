@@ -1,15 +1,27 @@
 import * as React from "react"
-import Header from "../components/links/links.js"
-import Layout from "../components/layout/layout.js"
+import Layout from "../components/layout/layout"
 import Seo from "../components/seo/seo.js"
+import { moi } from "../styles/moi.module.css"
+import JourneyCard from "../components/journeyCard/journeyCard.js"
+import Quote from "../components/quote"
+import Line from "../components/layout/line/Line.js"
+import {
+  tooltip,
+  tooltiptext,
+  journey,
+  journeyInfo,
+} from "../styles/journeyCard.module.css"
 
-const welcomer = () => {
+const Moi = () => {
   return (
-    <Layout pageTitle="hello">
-      <Header />
+    <Layout>
+      <div className={journey}>
+        <JourneyCard />
+      </div>
+      <Line />
     </Layout>
   )
 }
 
-export default welcomer
-export const Head = () => <Seo title="me in a nutshell" />
+export default Moi
+export const Head = () => <Seo title="moi" />

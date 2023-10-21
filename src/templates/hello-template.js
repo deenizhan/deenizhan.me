@@ -4,6 +4,7 @@ import Seo from "../components/seo/seo.js"
 import Line from "../components/layout/line/Line.js"
 import Socials from "../components/socials/socials.js"
 import Welcomer from "../components/welcomer/welcomer"
+import Quote from "../components/quote.js"
 
 const IndexPage = () => {
   return (
@@ -11,7 +12,7 @@ const IndexPage = () => {
       <Welcomer />
       <Socials />
       <Line />
-      coming soooon.
+      <Quote />
     </Layout>
   )
 }

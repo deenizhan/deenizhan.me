@@ -57,6 +57,13 @@
   /* line-height: 70%; */
 }
 
+.paint2 {
+  background: rgba(92, 60, 187, 0.37);
+  position: relative;
+  font-weight: bold;
+  /* line-height: 70%; */
+}
+
 .socialButttons {
   display: flex;
   width: 30px;

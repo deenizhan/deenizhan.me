@@ -7,6 +7,7 @@ import {
   moiInfo,
   cooper,
   moiCooper,
+  quote,
 } from "../../styles/moiCard.module.css"
 import { Link } from "gatsby"
 import spotify from "../../lib/social/spotify.png"
@@ -69,6 +70,7 @@ const MoiCard = () => {
       <div className={moiCooper}>
         <span className={moiInfo}>
           <h1>moi.</h1>
+          <h4 className={quote}>lives in a nutshell.</h4>
           <ul>
             <li>
               <p>

@@ -14,7 +14,14 @@ const past = [
     position: "Data Analyst @Algorithms",
     url: "https://www.getir.com/",
     emoji: "🛵",
-    term: "April'23",
+    term: "April'22 - April'23",
+  },
+  {
+    text: "Getir",
+    position: "Supply Chain",
+    url: "https://www.getir.com/",
+    emoji: "🛵",
+    term: "December'21 - March'22",
   },
 ]
 

@@ -8,10 +8,10 @@ import {
 import { paint1, paint2 } from "./../../styles/index.module.css"
 import { Link } from "gatsby"
 
-const past = [
+const pastXp = [
   {
     text: "Getir",
-    position: "Data Analyst @Algorithms",
+    position: "Data Analyst",
     url: "https://www.getir.com/",
     emoji: "🛵",
     term: "April'22 - April'23",
@@ -48,19 +48,32 @@ const JourneyCard = () => {
         </ul>
         <h3>Past</h3>
         <ul>
-          <li>
-            <p>
-              🛵 Data Analyst{" "}
-              <a
-                className={paint2}
-                href="https://www.getir.com/"
-                target="_blank"
-                rel="noopener noreferrer"
+          {pastXp.map(exp => (
+            <li>
+              <p>
+                {exp.emoji} {exp.position}{" "}
+                <a
+                  className={paint2}
+                  href={exp.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  @{exp.text}
+                </a>
+              </p>
+              <div
+                style={{
+                  fontWeight: 100,
+                  color: "grey",
+                  fontSize: "small",
+                  textIndent: "4%",
+                  lineHeight: "10%",
+                }}
               >
-                @Getir
-              </a>
-            </p>
-          </li>
+                {exp.term}
+              </div>
+            </li>
+          ))}
         </ul>
       </div>
     </>

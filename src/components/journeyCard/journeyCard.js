@@ -4,24 +4,44 @@ import {
   tooltiptext,
   journey,
   journeyInfo,
+  titleDivider,
+  experienceLine,
 } from "../../styles/journeyCard.module.css"
-import { paint1, paint2 } from "./../../styles/index.module.css"
+import { paint1, paint2, paint3, paint4 } from "./../../styles/index.module.css"
 import { Link } from "gatsby"
 
 const pastXp = [
   {
     text: "Getir",
-    position: "Data Analyst",
+    position: "Data Analyst at",
     url: "https://www.getir.com/",
     emoji: "🛵",
     term: "April'22 - April'23",
+    color: paint2,
   },
   {
     text: "Getir",
-    position: "Supply Chain",
+    position: "Supply Chain Analysis Intern at",
     url: "https://www.getir.com/",
     emoji: "🛵",
     term: "December'21 - March'22",
+    color: paint2,
+  },
+  {
+    text: "Middle East Technical University",
+    position: "Graduated from B.S. Industrial Engineering ",
+    url: "https://www.metu.com/",
+    emoji: "🎓",
+    term: "September'16 - July'22",
+    color: paint3,
+  },
+  {
+    text: " AIESEC",
+    position: "Attended a volunteering project in Shanghai | China with ",
+    url: "https://www.aiesec.org/",
+    emoji: "🥟",
+    term: "July'18 - August'18",
+    color: paint4,
   },
 ]
 
@@ -30,7 +50,7 @@ const JourneyCard = () => {
     <>
       <div className={journey}>
         <h1>journey.</h1>
-        <h3>Current</h3>
+        <h3 className={titleDivider}>Current</h3>
         <ul>
           <li>
             <p>
@@ -49,29 +69,28 @@ const JourneyCard = () => {
         <h3>Past</h3>
         <ul>
           {pastXp.map(exp => (
-            <li>
-              <p>
+            <li className={experienceLine}>
+              <span>
                 {exp.emoji} {exp.position}{" "}
                 <a
-                  className={paint2}
+                  className={exp.color}
                   href={exp.url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  @{exp.text}
+                  {exp.text}
                 </a>
-              </p>
-              <div
+              </span>
+              <span
                 style={{
                   fontWeight: 100,
                   color: "grey",
                   fontSize: "small",
-                  textIndent: "4%",
-                  lineHeight: "10%",
+                  margin: "10px",
                 }}
               >
-                {exp.term}
-              </div>
+                ({exp.term})
+              </span>
             </li>
           ))}
         </ul>

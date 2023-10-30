@@ -51,16 +51,31 @@
 }
 
 .paint1 {
-  background: rgba(255, 127, 0, 0.37);
+  background: rgba(255, 127, 0, 0.27);
   position: relative;
   font-weight: bold;
   /* line-height: 70%; */
 }
 
 .paint2 {
-  background: rgba(92, 60, 187, 0.37);
+  background: rgba(92, 60, 187, 0.17);
   position: relative;
   font-weight: bold;
+  /* line-height: 70%; */
+}
+
+.paint3 {
+  background: rgba(181, 9, 9, 0.214);
+  position: relative;
+  font-weight: bold;
+  /* line-height: 70%; */
+}
+
+.paint4 {
+  background: rgba(224, 175, 255, 0.536);
+  position: relative;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.95);
   /* line-height: 70%; */
 }
 

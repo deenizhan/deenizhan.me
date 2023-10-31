@@ -12,7 +12,7 @@ import { Link } from "gatsby"
 
 const pastXp = [
   {
-    text: "Getir",
+    text: " Getir",
     position: "Data Analyst at",
     url: "https://www.getir.com/",
     emoji: "🛵",
@@ -20,7 +20,7 @@ const pastXp = [
     color: paint2,
   },
   {
-    text: "Getir",
+    text: " Getir",
     position: "Supply Chain Analysis Intern at",
     url: "https://www.getir.com/",
     emoji: "🛵",
@@ -28,11 +28,11 @@ const pastXp = [
     color: paint2,
   },
   {
-    text: "Middle East Technical University",
+    text: " Middle East Technical University",
     position: "Graduated from B.S. Industrial Engineering ",
     url: "https://www.metu.com/",
     emoji: "🎓",
-    term: "September'16 - July'22",
+    term: "July'22",
     color: paint3,
   },
   {
@@ -40,7 +40,7 @@ const pastXp = [
     position: "Attended a volunteering project in Shanghai | China with ",
     url: "https://www.aiesec.org/",
     emoji: "🥟",
-    term: "July'18 - August'18",
+    term: "July'18",
     color: paint4,
   },
 ]
@@ -53,17 +53,27 @@ const JourneyCard = () => {
         <h3 className={titleDivider}>Current</h3>
         <ul>
           <li>
-            <p>
-              💻 Data Warehouse Analyst{" "}
+            <span>
+              💻 Data Warehouse Analyst at{" "}
               <a
                 className={paint1}
                 href="https://www.trendyol.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @Trendyol
+                Trendyol
               </a>
-            </p>
+            </span>
+            <span
+              style={{
+                fontWeight: 100,
+                color: "grey",
+                fontSize: "small",
+                margin: "10px",
+              }}
+            >
+              (April'23 - Present)
+            </span>
           </li>
         </ul>
         <h3>Past</h3>

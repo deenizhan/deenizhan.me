@@ -18,7 +18,6 @@ const Moi = () => {
       <div className={journey}>
         <JourneyCard />
       </div>
-      <Line />
     </Layout>
   )
 }

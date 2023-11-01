@@ -15,9 +15,9 @@ import denzan from "../../lib/denzan.gif"
 
 const getToKnows = [
   {
-    text: "@Trendyol",
+    text: "Trendyol",
     url: "https://www.trendyol.com/",
-    description: "💻  Data Warehouse Analyst",
+    description: "💻  Data Warehouse Analyst at",
   },
 ]
 

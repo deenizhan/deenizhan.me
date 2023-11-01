@@ -54,6 +54,9 @@
   background: rgba(255, 127, 0, 0.27);
   position: relative;
   font-weight: bold;
+  border-bottom: 3px solid rgb(91, 87, 87);
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
   /* line-height: 70%; */
 }
 
@@ -61,6 +64,9 @@
   background: rgba(92, 60, 187, 0.17);
   position: relative;
   font-weight: bold;
+  border-bottom: 3px solid rgb(91, 87, 87);
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
   /* line-height: 70%; */
 }
 
@@ -68,6 +74,9 @@
   background: rgba(181, 9, 9, 0.214);
   position: relative;
   font-weight: bold;
+  border-bottom: 3px solid rgb(91, 87, 87);
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
   /* line-height: 70%; */
 }
 
@@ -76,6 +85,9 @@
   position: relative;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
+  border-bottom: 3px solid rgb(91, 87, 87);
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
   /* line-height: 70%; */
 }
 

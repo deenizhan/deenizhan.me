@@ -116,7 +116,7 @@ a {
 }
 
 a:hover {
-  transition: 0.3s;
+  transition: 0.1s;
   opacity: 0.8;
 }
 

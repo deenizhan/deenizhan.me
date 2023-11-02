@@ -7,6 +7,7 @@ import {
   paint4,
   paint5,
   paint6,
+  paint7,
 } from "../../styles/stackCard.module.css"
 
 const StackCard = () => {
@@ -27,7 +28,8 @@ const StackCard = () => {
           <span className={paint5}>React</span> on the frontend.
         </li>
         <li>
-          Node.js on the backend with <span className={paint6}>REST</span>.
+          Learning <span className={paint6}>Node.js</span> on the backend with{" "}
+          <span className={paint7}>REST</span>.
         </li>
       </ul>
     </>

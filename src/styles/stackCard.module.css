@@ -61,6 +61,17 @@
   position: relative;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
+  border-bottom: 3px solid #68a063;
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
+  /* line-height: 70%; */
+}
+
+.paint7 {
+  background: rgba(187, 183, 180, 0.27);
+  position: relative;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.95);
   border-bottom: 3px solid rgba(244, 43, 43, 0.53);
   border-radius: 5%;
   padding: 2px 5px 0 5px;

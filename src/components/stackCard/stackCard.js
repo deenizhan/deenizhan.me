@@ -20,9 +20,7 @@ const StackCard = () => {
           <span className={paint1}>SQL</span> and{" "}
           <span className={paint2}>BI Tools</span>.
         </li>
-        <li>
-          Working with <span className={paint3}>Agile Scrum</span>.
-        </li>
+
         <li>
           Currently focused on <span className={paint4}>Javascript</span> with{" "}
           <span className={paint5}>React</span> on the frontend.
@@ -30,6 +28,9 @@ const StackCard = () => {
         <li>
           Learning <span className={paint6}>Node.js</span> on the backend with{" "}
           <span className={paint7}>REST</span>.
+        </li>
+        <li>
+          Working with <span className={paint3}>Agile Scrum</span>.
         </li>
       </ul>
     </>

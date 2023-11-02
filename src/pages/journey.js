@@ -21,4 +21,4 @@ const Moi = () => {
 }
 
 export default Moi
-export const Head = () => <Seo title="moi" />
+export const Head = () => <Seo title="journey." />

@@ -51,41 +51,41 @@
 }
 
 .paint1 {
-  background: rgba(255, 127, 0, 0.27);
+  background: rgba(187, 183, 180, 0.27);
   position: relative;
   font-weight: bold;
-  border-bottom: 3px solid rgb(91, 87, 87);
+  border-bottom: 3px solid rgba(255, 127, 0);
   border-radius: 5%;
   padding: 2px 5px 0 5px;
   /* line-height: 70%; */
 }
 
 .paint2 {
-  background: rgba(92, 60, 187, 0.17);
+  background: rgba(187, 183, 180, 0.27);
   position: relative;
   font-weight: bold;
-  border-bottom: 3px solid rgb(91, 87, 87);
+  border-bottom: 3px solid rgba(92, 60, 187);
   border-radius: 5%;
   padding: 2px 5px 0 5px;
   /* line-height: 70%; */
 }
 
 .paint3 {
-  background: rgba(181, 9, 9, 0.214);
+  background: rgba(187, 183, 180, 0.27);
   position: relative;
   font-weight: bold;
-  border-bottom: 3px solid rgb(91, 87, 87);
+  border-bottom: 3px solid rgb(211, 50, 50);
   border-radius: 5%;
   padding: 2px 5px 0 5px;
   /* line-height: 70%; */
 }
 
 .paint4 {
-  background: rgba(224, 175, 255, 0.536);
+  background: rgba(187, 183, 180, 0.27);
   position: relative;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.95);
-  border-bottom: 3px solid rgb(91, 87, 87);
+  border-bottom: 3px solid rgba(224, 175, 255);
   border-radius: 5%;
   padding: 2px 5px 0 5px;
   /* line-height: 70%; */

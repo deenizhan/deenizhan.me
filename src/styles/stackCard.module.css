@@ -1,0 +1,68 @@
+.listItem {
+  line-height: 240%;
+  list-style: square;
+  padding-left: 30px;
+}
+
+.paint1 {
+  background: rgba(211, 208, 205, 0.27);
+  position: relative;
+  font-weight: bold;
+  border-bottom: 3px solid #f29111;
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
+  /* line-height: 70%; */
+}
+
+.paint2 {
+  background: rgba(187, 183, 180, 0.27);
+  position: relative;
+  font-weight: bold;
+  border-bottom: 3px solid #11508b;
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
+  /* line-height: 70%; */
+}
+
+.paint3 {
+  background: rgba(187, 183, 180, 0.27);
+  position: relative;
+  font-weight: bold;
+  border-bottom: 3px solid #0066d8;
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
+  /* line-height: 70%; */
+}
+
+.paint4 {
+  background: rgba(187, 183, 180, 0.27);
+  position: relative;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.95);
+  border-bottom: 3px solid #f0db4f;
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
+  /* line-height: 70%; */
+}
+
+.paint5 {
+  background: rgba(187, 183, 180, 0.27);
+  position: relative;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.95);
+  border-bottom: 3px solid #61dbfb;
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
+  /* line-height: 70%; */
+}
+
+.paint6 {
+  background: rgba(187, 183, 180, 0.27);
+  position: relative;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.95);
+  border-bottom: 3px solid rgba(244, 43, 43, 0.53);
+  border-radius: 5%;
+  padding: 2px 5px 0 5px;
+  /* line-height: 70%; */
+}

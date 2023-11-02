@@ -3,8 +3,6 @@ import Layout from "../components/layout/layout"
 import Seo from "../components/seo/seo.js"
 import { moi } from "../styles/moi.module.css"
 import JourneyCard from "../components/journeyCard/journeyCard.js"
-import Quote from "../components/quote"
-import Line from "../components/layout/line/Line.js"
 import {
   tooltip,
   tooltiptext,

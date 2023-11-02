@@ -21,14 +21,11 @@ const Header = () => {
         <span className={seperator}>/</span>
         <Link to="/journey">journey</Link>
         <span className={seperator}>/</span>
-        <span className={tooltip}>
-          <span className={tooltiptext}>soon.</span>
-          <Link to="javascript:void(0)">projects</Link>
-        </span>
+        <Link to="/stack">stack</Link>
         <span className={seperator}>/</span>
         <span className={tooltip}>
           <span className={tooltiptext}>soon.</span>
-          <Link to="javascript:void(0)">blog</Link>
+          <Link to="javascript:void(0)">projects</Link>
         </span>
       </span>
     </div>

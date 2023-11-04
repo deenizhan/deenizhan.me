@@ -12,7 +12,7 @@ const Footer = () => {
         <span className={email}>
           <a href="mailto: denizhanyilmaz9@gmail.com">
             denizhanyilmaz9<span style={{ fontWeight: 800 }}>[at]</span>
-            gmail.com
+            gmail.com 📪
           </a>
         </span>
       </div>

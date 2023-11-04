@@ -12,8 +12,8 @@ const Moi = () => {
       <div className={moi}>
         <MoiCard />
       </div>
-      <Line />
-      <Quote />
+      {/* <Line />
+      <Quote /> */}
     </Layout>
   )
 }

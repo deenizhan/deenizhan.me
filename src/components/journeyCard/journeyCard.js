@@ -30,7 +30,7 @@ const pastXp = [
   {
     text: " Middle East Technical University",
     position: "Graduated from B.S. Industrial Engineering ",
-    url: "https://www.metu.com/",
+    url: "https://www.metu.edu.tr/",
     emoji: "🎓",
     term: "July'22",
     color: paint3,

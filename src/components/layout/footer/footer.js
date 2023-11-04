@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <Line />
       <div className={footer}>
-        <span className={footerTitle}>© Denizhan Yilmaz</span>
+        <span className={footerTitle}>Denizhan Yilmaz</span>
         <span className={footerTitle}>
           <a href="mailto: denizhanyilmaz9@gmail.com">
             denizhanyilmaz9<span style={{ fontWeight: 800 }}>[at]</span>

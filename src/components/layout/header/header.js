@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <div className={header}>
       <span className={title}>
-        <Link to="/">deenizhan.me</Link>
+        <Link to="/">denizhany.me</Link>
       </span>
       <span className={navigator}>
         <Link to="/moi">moi</Link>

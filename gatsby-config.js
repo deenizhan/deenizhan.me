@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `deenizhan`,
+    title: `denizhany`,
     description: `lives in a nutshell`,
-    author: `@deenizhan`,
-    siteUrl: `ttps://www.yourdomain.tld`,
+    author: `@denizhany`,
+    siteUrl: `https://www.deenizhany.me/`,
   },
   plugins: [
     `gatsby-plugin-image`,

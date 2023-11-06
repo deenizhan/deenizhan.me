@@ -53,6 +53,7 @@ ul {
 .footer {
   display: flex;
   justify-content: space-between;
+  font-size: 0.94em;
 }
 
 .footerTitle {

@@ -10,9 +10,9 @@ const Footer = () => {
       <div className={footer}>
         <span className={footerTitle}>Denizhan Yilmaz</span>
         <span className={footerTitle}>
-          <a href="mailto: denizhanyilmaz9@gmail.com">
-            denizhanyilmaz9<span style={{ fontWeight: 800 }}>[at]</span>
-            gmail.com 📪
+          <a href="mailto: denizhan@denizhany.me">
+            denizhan<span style={{ fontWeight: 800 }}>[at]</span>
+            denizhany.me 📪
           </a>
         </span>
       </div>

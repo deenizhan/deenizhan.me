@@ -1,7 +1,7 @@
-<p>deenizhan.me</p>
+<p>denizhany.me</p>
 
-still in development
+Live!
 
 <hr>
 
-<a href="https://master--deenizhanme.netlify.app/">deenizhan.me/</a>
+<a href="https://denizhany.me/">denizhany.me/</a>

@@ -17,7 +17,7 @@ const getToKnows = [
   {
     text: "Trendyol",
     url: "https://www.trendyol.com/",
-    description: "💻  Data Warehouse Analyst at",
+    description: "💻  Analytics Engineer at",
   },
 ]
 
